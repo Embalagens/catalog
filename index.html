@@ -3,115 +3,171 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gráfica Futurista de Embalagens</title>
+  <title>Sacolas com Preço de Fábrica | Pedido Direto no WhatsApp</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     html { scroll-behavior: smooth; }
-    .fade-in { animation: fadeIn 1s ease-in-out forwards; opacity: 0; }
-    .scale-up { animation: scaleUp 0.6s ease-in-out forwards; transform: scale(0.9); }
-    @keyframes fadeIn { to { opacity: 1; } }
-    @keyframes scaleUp { to { transform: scale(1); } }
+    .badge { background: linear-gradient(to right, #facc15, #fde047); color: #1e293b; font-weight: bold; padding: 2px 8px; border-radius: 8px; }
   </style>
 </head>
-<body class="bg-white text-gray-900 font-sans">
+<body class="text-gray-900 font-sans bg-white">
 
-  <!-- HERO / APRESENTAÇÃO -->
-  <section class="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-200 text-black py-20 px-6 text-center">
-    <h1 class="text-5xl font-extrabold mb-4 fade-in">Sua Gráfica de Sacolas Ecológicas</h1>
-    <p class="text-lg max-w-2xl mx-auto fade-in">Oferecemos produtos sustentáveis com design moderno, durabilidade e consciência ambiental. Ideal para comércios que se preocupam com o futuro.</p>
-    <img src="https://source.unsplash.com/600x400/?eco,print" class="mt-10 mx-auto rounded-xl shadow-xl scale-up" />
-  </section>
+<!-- HERO COMERCIAL -->
+<section class="bg-gradient-to-r from-yellow-100 to-white py-16 px-6 text-center">
+  <h1 class="text-5xl font-extrabold text-gray-900 leading-tight">Compre Sacolas <span class="text-yellow-500">Direto da Fábrica</span><br><span class="text-3xl text-gray-600">Entrega Rápida | Biodegradáveis | Preço Imbatível</span></h1>
+  <p class="mt-4 text-lg text-gray-700">Atendemos comércios, mercados, padarias, hortifrutis, lojas e indústrias.</p>
+  <img src="https://i.imgur.com/1y09Nsk.jpg" alt="Sacolas Personalizadas" class="mt-10 mx-auto rounded-xl shadow-xl w-full max-w-3xl" />
+  <a href="https://wa.me/559999999999" target="_blank" class="inline-block mt-8 bg-yellow-400 text-black px-6 py-3 rounded-full font-bold text-xl hover:bg-yellow-300 transition">
+    📲 Falar com um Especialista
+  </a>
+</section>
 
-  <!-- SACOLA BRANCA BIO -->
-  <section class="bg-white py-20 px-6 md:px-16">
-    <div class="grid md:grid-cols-2 gap-10 items-center">
-      <img src="https://source.unsplash.com/600x400/?eco,bag" class="rounded-2xl shadow-lg hover:scale-105 transition" />
-      <div>
-        <h2 class="text-3xl font-bold text-yellow-500 mb-4">Sacola Branca Bio</h2>
-        <p class="mb-4 text-gray-700">Sacola biodegradável que se decompõe mais rapidamente. Ideal para mercados, padarias e farmácias.</p>
-        <ul class="list-disc pl-6 text-gray-800 space-y-1">
-          <li>30×40 cm – 15 micras – 1.000 un.</li>
-          <li>38×48 cm – 16 micras – 1.000 un.</li>
-          <li>38×48 cm Extra – 27 micras – 800 un.</li>
-          <li>48×58 cm – 22 micras – 1.000 un.</li>
-        </ul>
+<!-- PRODUTO 1 -->
+<section class="bg-white py-20 px-6 md:px-20">
+  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+    <img src="https://source.unsplash.com/600x400/?shopping,bag" class="rounded-xl shadow-xl hover:scale-105 transition" />
+    <div>
+      <h2 class="text-4xl font-bold text-yellow-500 mb-4">Sacola Branca Bio</h2>
+      <ul class="list-disc pl-6 text-gray-700 text-lg space-y-2">
+        <li>✔️ Biodegradável e ideal para padarias, mercados e farmácias.</li>
+        <li>✔️ Excelente custo-benefício para varejo diário.</li>
+        <li>✔️ Embalagem neutra e elegante que combina com qualquer identidade visual.</li>
+      </ul>
+      <div class="mt-6">
+        <table class="w-full text-left border border-gray-300">
+          <thead class="bg-yellow-100">
+            <tr>
+              <th class="py-2 px-4 font-bold">Medida</th>
+              <th class="py-2 px-4 font-bold">Micragem</th>
+              <th class="py-2 px-4 font-bold">Fardo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="hover:bg-gray-50">
+              <td class="py-2 px-4">30×40 cm</td>
+              <td class="py-2 px-4">15 micras</td>
+              <td class="py-2 px-4">1.000 un.</td>
+            </tr>
+            <tr class="hover:bg-gray-50">
+              <td class="py-2 px-4">38×48 cm</td>
+              <td class="py-2 px-4">16 micras</td>
+              <td class="py-2 px-4">1.000 un.</td>
+            </tr>
+            <tr class="hover:bg-gray-50">
+              <td class="py-2 px-4">38×48 cm Extra</td>
+              <td class="py-2 px-4">27 micras</td>
+              <td class="py-2 px-4">800 un.</td>
+            </tr>
+            <tr class="hover:bg-gray-50">
+              <td class="py-2 px-4">48×58 cm</td>
+              <td class="py-2 px-4">22 micras</td>
+              <td class="py-2 px-4">1.000 un.</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- SACOLA BIOFLEX -->
-  <section class="bg-gray-50 py-20 px-6 md:px-16">
-    <div class="grid md:grid-cols-2 gap-10 items-center">
-      <img src="https://source.unsplash.com/600x400/?plastic,eco" class="rounded-2xl shadow-lg hover:scale-105 transition" />
-      <div>
-        <h2 class="text-3xl font-bold text-yellow-500 mb-4">Sacola Bioflex 38×48</h2>
-        <p class="mb-4 text-gray-700">Maleável, resistente e biodegradável. Ideal para supermercados e lojas exigentes.</p>
-        <p class="text-gray-800 font-medium">38×48 cm – 40 micras – Fardo com 2,6 kg.</p>
-      </div>
+<!-- PRODUTO 2: BIOFLEX -->
+<section class="bg-gray-50 py-20 px-6 md:px-20">
+  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+    <img src="https://source.unsplash.com/600x400/?plastic,biodegradable" class="rounded-xl shadow-xl hover:scale-105 transition" />
+    <div>
+      <h2 class="text-4xl font-bold text-yellow-500 mb-4">Sacola Bioflex 38×48</h2>
+      <ul class="list-disc pl-6 text-gray-700 text-lg space-y-2">
+        <li>✔️ Super reforçada: 40 micras com toque maleável.</li>
+        <li>✔️ Ideal para roupas, açougues, supermercados e lojas.</li>
+        <li>✔️ Combina durabilidade com sustentabilidade.</li>
+      </ul>
+      <p class="mt-4 font-medium text-gray-800">📦 38×48 cm – 40 micras – Fardo com 2,6 kg</p>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- MULTICOLOR RECICLADA -->
-  <section class="bg-yellow-100 py-20 px-6 md:px-16">
-    <div class="grid md:grid-cols-2 gap-10 items-center">
-      <img src="https://source.unsplash.com/600x400/?recycled,eco" class="rounded-2xl shadow-lg hover:scale-105 transition" />
-      <div>
-        <h2 class="text-3xl font-bold text-yellow-600 mb-4">Sacola Reciclada Multicolor</h2>
-        <p class="mb-4 text-gray-700">Feita com material reciclado, sem corantes. Ideal para hortifrutis, ração, sacolões.</p>
-        <ul class="list-disc pl-6 text-gray-800 space-y-1">
-          <li>30×45 cm – 60 micras – 2 kg</li>
-          <li>40×50 cm – 60 micras – 3 kg</li>
-          <li>47×57 cm – 60 micras – 4 kg</li>
-        </ul>
-      </div>
+<!-- PRODUTO 3: MULTICOLOR -->
+<section class="bg-yellow-50 py-20 px-6 md:px-20">
+  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+    <img src="https://source.unsplash.com/600x400/?eco,color" class="rounded-xl shadow-xl hover:scale-105 transition" />
+    <div>
+      <h2 class="text-4xl font-bold text-yellow-600 mb-4">Sacola Reciclada Multicolor</h2>
+      <ul class="list-disc pl-6 text-gray-700 text-lg space-y-2">
+        <li>♻️ Produzida com material reciclado e sem corantes.</li>
+        <li>♻️ Ecológica e ideal para hortifrutis, lojas de ração, embalagens diversas.</li>
+      </ul>
+      <table class="w-full text-left border border-gray-300 mt-6">
+        <thead class="bg-yellow-100">
+          <tr>
+            <th class="py-2 px-4 font-bold">Medida</th>
+            <th class="py-2 px-4 font-bold">Micragem</th>
+            <th class="py-2 px-4 font-bold">Fardo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="hover:bg-gray-50">
+            <td class="py-2 px-4">30×45 cm</td>
+            <td class="py-2 px-4">60 micras</td>
+            <td class="py-2 px-4">2 kg</td>
+          </tr>
+          <tr class="hover:bg-gray-50">
+            <td class="py-2 px-4">40×50 cm</td>
+            <td class="py-2 px-4">60 micras</td>
+            <td class="py-2 px-4">3 kg</td>
+          </tr>
+          <tr class="hover:bg-gray-50">
+            <td class="py-2 px-4">47×57 cm</td>
+            <td class="py-2 px-4">60 micras</td>
+            <td class="py-2 px-4">4 kg</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- BOBINA -->
-  <section class="bg-gray-900 text-white py-20 px-6 md:px-16">
-    <div class="grid md:grid-cols-2 gap-10 items-center">
-      <img src="https://source.unsplash.com/600x400/?plastic,roll" class="rounded-2xl shadow-lg hover:scale-105 transition" />
-      <div>
-        <h2 class="text-3xl font-bold text-yellow-400 mb-4">Bobina Picotada</h2>
-        <p class="mb-4">Ideal para açougues, hortifrutis, mercados e feiras.</p>
-        <ul class="list-disc pl-6 space-y-1">
-          <li>20×35 cm – 15 micras – 500 un. (2 kg)</li>
-          <li>25×35 cm – 15 micras – 500 un. (3 kg)</li>
-          <li>30×40 cm – 15 micras – 500 un. (5 kg)</li>
-        </ul>
-      </div>
+<!-- PRODUTO 4: SACO DE LIXO -->
+<section class="bg-white py-20 px-6 md:px-20">
+  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+    <img src="https://source.unsplash.com/600x400/?trash,bag" class="rounded-xl shadow-xl hover:scale-105 transition" />
+    <div>
+      <h2 class="text-4xl font-bold text-yellow-500 mb-4">Saco de Lixo Reforçado</h2>
+      <ul class="list-disc pl-6 text-gray-700 text-lg space-y-2">
+        <li>🛡️ Alta resistência para uso em comércios, restaurantes, clínicas e empresas.</li>
+        <li>🛡️ Vários tamanhos e micragens para atender sua demanda.</li>
+      </ul>
+      <table class="w-full text-left border border-gray-300 mt-6">
+        <thead class="bg-yellow-100">
+          <tr>
+            <th class="py-2 px-4 font-bold">Tamanho</th>
+            <th class="py-2 px-4 font-bold">Micragem</th>
+            <th class="py-2 px-4 font-bold">Indicação</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="py-2 px-4">60 L</td><td class="py-2 px-4">40</td><td class="py-2 px-4">Residências</td></tr>
+          <tr><td class="py-2 px-4">105 L</td><td class="py-2 px-4">60</td><td class="py-2 px-4">Condomínios</td></tr>
+          <tr><td class="py-2 px-4">105 L</td><td class="py-2 px-4">70</td><td class="py-2 px-4">Lanchonetes</td></tr>
+          <tr><td class="py-2 px-4">200 L</td><td class="py-2 px-4">70</td><td class="py-2 px-4">Supermercados</td></tr>
+        </tbody>
+      </table>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- SACO DE LIXO -->
-  <section class="bg-yellow-300 py-20 px-6 md:px-16">
-    <div class="grid md:grid-cols-2 gap-10 items-center">
-      <img src="https://source.unsplash.com/600x400/?trash,bag" class="rounded-2xl shadow-lg hover:scale-105 transition" />
-      <div>
-        <h2 class="text-3xl font-bold text-gray-900 mb-4">Saco de Lixo Preto</h2>
-        <p class="mb-4">Alta resistência para ambientes que exigem descarte seguro.</p>
-        <ul class="list-disc pl-6 text-gray-800 space-y-1">
-          <li>60 L – 60×70 cm – 40 micras → Residências</li>
-          <li>105 L – 75×90 cm – 60 micras → Restaurantes</li>
-          <li>105 L – 75×90 cm – 70 micras → Cozinhas industriais</li>
-          <li>105 L – 75×105 cm – 70 micras → Clínicas</li>
-          <li>200 L – 90×110 cm – 70 micras → Hotéis e supermercados</li>
-        </ul>
-      </div>
-    </div>
-  </section>
+<!-- DEPOIMENTO E CONFIANÇA -->
+<section class="bg-gray-900 text-white py-16 text-center px-6">
+  <h2 class="text-3xl font-bold text-yellow-400 mb-6">💬 Clientes de Todo o Brasil Recomendam</h2>
+  <p class="max-w-3xl mx-auto text-lg text-gray-300 mb-8">“Comprei para minha rede de padarias e fiquei impressionado. Produto forte, bonito e ainda me ajudou a valorizar minha marca!” <br> <span class="italic text-sm text-yellow-200">– João, SP</span></p>
+  <a href="https://wa.me/559999999999" target="_blank" class="bg-yellow-400 text-black px-8 py-4 font-bold rounded-xl hover:bg-yellow-300 transition text-xl">
+    Falar no WhatsApp Agora
+  </a>
+</section>
 
-  <!-- CTA / CONTATO -->
-  <section class="bg-gray-100 text-center py-20 px-6">
-    <h2 class="text-4xl font-extrabold text-yellow-500 mb-4">Entre em Contato Agora</h2>
-    <p class="mb-6 text-gray-700">Tire dúvidas ou faça seu pedido via WhatsApp.</p>
-    <a href="https://wa.me/559999999999" class="bg-yellow-400 text-black px-6 py-3 font-bold rounded-xl hover:bg-yellow-300 transition">Falar com Vendedor</a>
-  </section>
-
-  <!-- RODAPÉ -->
-  <footer class="bg-gray-900 text-gray-400 text-center py-6">
-    © 2025 Gráfica Futurista | Todos os direitos reservados.
-  </footer>
+<!-- FOOTER -->
+<footer class="bg-black text-center text-gray-400 py-6">
+  © 2025 Gráfica de Sacolas | Direto da Fábrica para o Seu Negócio 💼
+</footer>
 
 </body>
 </html>
